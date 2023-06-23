@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0"> 
+	<title> OCHAVE MELISSA </title> 
+	<link href="learningactivity5.css" rel="stylesheet"> 
+</head> 
+
+<body> 
+<div class="box"> 
+<font color="#FE642E"> <h1> Land of Boxes Order Form </h1> </font> 
+<form> 
+
+<label for="name"> <b> Name: </b> </label> 
+<input type="text" id="name" name="name" value=""> 
+<br> <br> 
+
+<label for="email"> <b> Email: </b> </label> 
+<input type="text" id="email" name="email" value=""> 
+<br> <br>
+
+<label for="address"> <b> Address: </b> </label> 
+<textarea id="address" name="address" rows= 2.5" cols="15"></textarea> 
+<br> <br> 
+
+<label for="pc"> <b> Postcode: </b> </label> 
+<input type="text" id="pc" name="pc" value=""> 
+<br> <br> 
+
+<table style="width: 70%" border="1"> 
+<tr> 
+
+	<th align="left"> Product </th> 
+	<th align="left"> Part Number </th> 
+	<th align="left"> Quantity </th> 
+	<th align="left"> Unit Price </th> <th align="left"> Subtotal </th> 
+</tr> 
+<tr> 
+	<td> EconoBox </td> 
+	<td> LB100 </td> 
+	<td> <input type="number" value="" </td> 
+	<td> R5 </td> 
+	<td> <input type="text" value="" </td> 
+</tr>
+<tr>
+	<td> Standard Box </td> 
+	<td> LB200 </td> <td> 
+	<input type="number" value="" </td> 
+	<td> R10 </td> 
+	<td> <input type="text" value="" </td> 
+</tr>
+<tr>
+	<td> Premium Box </td> 
+	<td> LB300 </td> 
+	<td> <input type="number" value="" </td> 
+	<td> R15 </td> 
+	<td> <input type="text" value="" </td>	
+</tr> 
+<tr> 
+	<td> Deluxe Box </td> 
+	<td> LB400 </td> 
+	<td> <input type="number" value="" </td> 
+	<td> R20 </td> 
+	<td> <input type="text" value="" </td>	
+
+</tr> 
+<tr>
+	<td> Super Deluxe Box </td> 
+	<td> LB500 </td> 
+	<td> <input type="number" value="" </td> 
+	<td> R30 </td> 
+	<td> <input type="text" value="" </td> 
+</tr> 
+<tr> 
+	<td colspan="4" align="right"> Total: </td> 
+	<td> <input type="text" value="" </td> 
+
+</tr> 
+<table> <br>	
+
+<b> Credit Card Details </b> <br> 
+
+<label for="card"> Card Type: </label> <br> 
+<input type="radio" id="card" id="master" name="card" value=""> 
+<label for="master"> Mastercard </label> 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	Card Number: 
+	<input type="text" name="cnum" value=""><br> 
+
+<input type="radio" id="visa" name="card" value="Visa">
+<label for="Visa"> Visa </label> 
+	&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	Expiry Date:&nbsp;
+	<input type="text" name="ccdate" size=4 value=""><br> 
+	<input type="radio" id="card" id="Ame" name="card" value="American Express"> 
+<label for="American"> American Express </label> <br> 
+<input type="radio" id="card" id="Dinner" name="card" value="Dinners Club"> 
+<label for="Diner"> Diners Club </label> 
+
+<br> <br> <br> 
+
+<label for="address"> <b> Delivery Address: </b> </label> 
+<textarea id="address" name="address" rows="2.5" cols="15"> </textarea> 
+
+<br> <br> <br>
+<button type="submit" value="Submit" class="submit">Send order</button> 
+<input type="reset" onclick="myFunction()" value="Clear form"></button> 
+</form> 
+</div> 
+</body> 
+</html>
